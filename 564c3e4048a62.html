@@ -1,0 +1,249 @@
+
+<!-- saved from url=(0068)http://contribuyente.seniat.gob.ve/naturalislr/mostrarDeclaracion.do -->
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script>
+  var cantConfirm = 0;
+
+  function registrarDeclaracion(){
+      if (confirm('Si usted está seguro de la información sumistrada presione Aceptar para continuar, de lo contrario presione Cancelar')) {
+        cantConfirm += 1;
+        if (cantConfirm == 1){
+          document.getElementById("registrar").href = "#";
+          document.forms[0].submit();
+        }
+      }
+  }
+ </script>
+ 
+  
+</head><body leftmargin="0" rightmargin="0" topmargin="0" marginheight="0" marginwidth="0" class="Bodyid1siteid0"><br>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+
+<!------- ****** Js, idioma y estilo de los calendarios ******* -->
+    <link rel="stylesheet" type="text/css" href="./declaracion alberto Gonzalez_files/calendar-bluePequeno.css" title="winter">
+    <script type="text/javascript" src="./declaracion alberto Gonzalez_files/calendar.js"></script>
+    <script type="text/javascript" src="./declaracion alberto Gonzalez_files/calendar-es.js"></script>
+    <script type="text/javascript" src="./declaracion alberto Gonzalez_files/calendar-setup.js"></script>
+<!------- ** Fin Js, idioma y estilo de los calendarios ******* -->
+
+<script type="text/javascript" src="./declaracion alberto Gonzalez_files/islrNatural.js"></script>
+
+<script type="text/javascript" src="./declaracion alberto Gonzalez_files/validDate.js"></script>
+
+<script type="text/javascript" src="./declaracion alberto Gonzalez_files/controlEntrada.js"></script>
+
+<title>SENIAT - Servicio Integrado de Administración Aduanera y Tributaria</title>
+<link rel="stylesheet" href="http://contribuyente.seniat.gob.ve/css/iseniat.css">
+
+<link rel="stylesheet" href="http://contribuyente.seniat.gob.ve/css/menu_internet0.css">
+
+<link rel="stylesheet" href="http://contribuyente.seniat.gob.ve/css/calendar-theme.css">
+
+
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF"><tbody><tr><td width="265" align="left" rowspan="2"><img src="./declaracion alberto Gonzalez_files/logocr.gif" border="0" width="207" height="73"></td><td width="322" align="left" valign="middle" colspan="2" bgcolor="#FFFFFF"><span class="letrasFecha">Venezuela, <script language="javascript">dows = new Array("domingo","lunes","martes","mi&eacute;rcoles","jueves","viernes","sabado");months = new    Array("enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre");now = new Date();dow = now.getDay();d = now.getDate();m = now.getMonth();h = now.getTime();y = now.getFullYear();document.write("<font size=1 face=Arial Narrow>" + dows[dow]+" "+d+" de "+months[m]+" de "+y + "</font>");</script><font size="1" face="Arial" narrow="">viernes 27 de marzo de 2015</font></span></td></tr><tr height="68"><td style="background-IMAGE: url(http://contribuyente.seniat.gob.ve/imagenes/fondo_celda.jpg);" height="68">&nbsp;</td><td width="640" height="68" valign="baseline" align="right" class="fondoPrincipal"><img src="./declaracion alberto Gonzalez_files/banner.jpg" width="640" height="68" alt="Aqui estan tus Tributos" border="0"></td></tr></tbody></table>
+
+  <table width="100%" cellpadding="0" cellspacing="0"><tbody><tr><td colspan="2" width="100%" height="10px" bgcolor="#FFFFFF"></td></tr><tr><td colspan="1" width="90%" style="background-color:#CCCCCC;height:30px;">&nbsp;<span class="nombreBarra">&nbsp;&nbsp;ALBERTO JOSE GONZALEZ</span></td><td colspan="1" width="10%" style="background-color:#CCCCCC;height:30px;" align="center">  <a href="http://contribuyente.seniat.gob.ve/iseniatlogin/paginaprincipal.do"> <img src="./declaracion alberto Gonzalez_files/pprincipal.gif" border="0">  </a>  </td></tr></tbody></table>
+
+    <table width="100%">
+      <tbody><tr>
+        <td valign="top" width="10%">
+          
+
+
+
+
+
+<link rel="stylesheet" href="http://contribuyente.seniat.gob.ve/css/menuacordeon.css">
+
+<script type="text/javascript" src="./declaracion alberto Gonzalez_files/jquery.min.js"></script>
+
+<script type="text/javascript" src="./declaracion alberto Gonzalez_files/ddaccordion.js"></script>
+
+
+<script type="text/javascript">
+/***********************************************
+* Accordion Content script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix", "<img src='http://contribuyente.seniat.gob.ve/imagenes/plus_1.png'  class='statusicon'  /> ", "<img src='http://contribuyente.seniat.gob.ve/imagenes/minus_1.png' class='statusicon'  /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+ddaccordion.init({ //2nd level headers initialization
+        headerclass: "subexpandable", //Shared CSS class name of sub headers group that are expandable
+        contentclass: "subcategoryitems", //Shared CSS class name of sub contents group
+        collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+        defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+        animatedefault: false, //Should contents open by default be animated into view?
+        persiststate: false, //persist state of opened contents within browser session?
+        toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+        togglehtml: ["suffix", "<img src='http://contribuyente.seniat.gob.ve/imagenes/plus_1.png' class='statusicon' /> ", "<img src='http://contribuyente.seniat.gob.ve/imagenes/minus_1.png' class='statusicon' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+        animatespeed: "normal", //speed of animation: "fast", "normal", or "slow"
+        oninit:function(expandedindices){ //custom code to run when headers have initalized
+                       //do nothing
+        },
+        onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+                       //do nothing
+        }
+})
+
+ddaccordion.init({ //top level headers initialization
+        headerclass: "expandable", //Shared CSS class name of headers group that are expandable
+        contentclass: "categoryitems", //Shared CSS class name of contents group
+        collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+        defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content
+        animatedefault: false, //Should contents open by default be animated into view?
+        persiststate: false, //persist state of opened contents within browser session?
+        toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+        togglehtml: ["suffix", "<img src='http://contribuyente.seniat.gob.ve/imagenes/plus_1.png'  class='statusicon'  /> ", "<img src='http://contribuyente.seniat.gob.ve/imagenes/minus_1.png' class='statusicon'  /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+        animatespeed: "fast", //speed of animation: "fast", "normal", or "slow"
+        oninit:function(expandedindices){ //custom code to run when headers have initalized
+                       //do nothing
+        },
+        onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+                       //do nothing
+        }
+})
+
+</script><style type="text/css">
+.submenu{display: none}
+</style><style type="text/css">
+.subcategoryitems{display: none}
+</style><style type="text/css">
+.categoryitems{display: none}
+</style>
+<table>
+<tbody><tr><td valign="top">
+ 
+<div class="glossymenu">
+    <span class="menuitem">Menú Declaración</span>
+    
+    
+        <a class="menuitem " href="http://contribuyente.seniat.gob.ve/naturalislr/ejercicioFiscal.do">Inicio</a>
+        
+    
+        <a class="menuitem " href="http://contribuyente.seniat.gob.ve/naturalislr/resumen.do">Resumen</a>
+        
+    
+        <a class="menuitem " href="http://contribuyente.seniat.gob.ve/naturalislr/compromisoPago.do">Compromiso Pago</a>
+        
+    
+        <a class="menuitem " href="./declaracion alberto Gonzalez_files/declaracion alberto Gonzalez.html">Ver Declaración</a>
+        
+     
+</div>
+
+&nbsp;
+</td>
+        
+        <td valign="top" width="90%">
+          
+<form name="FormularioForm" method="post" action="http://contribuyente.seniat.gob.ve/naturalislr/registrarDeclaracion.do">
+<input type="hidden" name="items" value="">   
+<input type="hidden" name="seccion" value="declaracionCompletaISLR">
+<input type="hidden" name="escenario" value="">
+  <table valign="top" width="100%" class="tablaTitulo">
+  <tbody><tr>
+    <td width="95%" valign="top" align="center">iSENIAT - Declaración  Originaria de ISLR Persona Natural</td>
+  </tr> 
+  </tbody></table>
+  <center>
+  <table valign="top" width="80%">
+    <tbody><tr>
+      <td width="100%" valign="top" align="center">
+        <center>
+            <table cellpadding="2" cellspacing="0" border="0" width="90%" align="center">
+               <tbody><tr><td align="center" valign="top">
+                <span id="mensajeError" style="color:#FF0000; font-size:11px;visibility=hidden;">&nbsp;</span></td></tr>
+            </tbody></table>
+        </center>     
+        <center><span style="color:#FF0000; font-size:9px"></span></center>
+      </td>
+    </tr> 
+  </tbody></table>
+  </center>
+<center>      
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+ 
+        
+     <td width="50%" valign="middle" align="center" class="letrasSmall">
+        &nbsp;      
+    </td>   
+               
+  </tr>
+</tbody></table>
+</center>
+
+
+    <!-- INICIO CUERPO PRINCIPAL --> 
+      
+    <iframe src="./declaracion alberto Gonzalez_files/planilla25_1.html" frameborder="0" width="100%" height="5700" scrolling="no">
+    &lt;!-- FIN CUERPO PRINCIPAL --&gt; 
+    </iframe>
+
+<br>
+<!-- INICIO BOTONERA --> 
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <!--<td height="50" width="25%" valign="middle" align="center">
+      <a href="atrasDeclaracion.do"><img align="absmiddle" src="http://contribuyente.seniat.gob.ve/imagenes/atras.jpg" border="0" alt="Atras"></a>
+    </td>
+    <td height="50" width="50%"  valign="middle"  align="center" class="letrasSmall">
+      &nbsp;
+    </td>-->
+  
+  
+    <td height="50" width="50%" valign="middle" align="center" class="letrasSmall">
+        &nbsp;
+    </td>
+  
+  </tr>
+</tbody></table>
+</center>
+</form>
+<!-- FIN BOTONERA --> 
+  </td></tr></tbody></table>
+  
+        </td>
+      </tr>
+    </tbody></table>
+  <br>
+  
+
+
+</body></html>
